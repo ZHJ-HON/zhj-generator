@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="FreeMarkerTest" time="0.777" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="F:\code\zhj-generator\zhj-generator-basic\target\test-classes;F:\code\zhj-generator\zhj-generator-basic\target\classes;C:\Users\zhj\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\zhj\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\zhj\.m2\repository\cn\hutool\hutool-all\5.8.16\hutool-all-5.8.16.jar;C:\Users\zhj\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\zhj\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\zhj\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\zhj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\zhj\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\zhj\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\zhj\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="GMT+08:00"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="F:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\zhj\AppData\Local\Temp\surefire5117557318752098802\surefirebooter-20241213170946073_3.jar C:\Users\zhj\AppData\Local\Temp\surefire5117557318752098802 2024-12-13T17-09-45_419-jvmRun1 surefire-20241213170946073_1tmp surefire_0-20241213170946073_2tmp"/>
+    <property name="surefire.test.class.path" value="F:\code\zhj-generator\zhj-generator-basic\target\test-classes;F:\code\zhj-generator\zhj-generator-basic\target\classes;C:\Users\zhj\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\zhj\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\zhj\.m2\repository\cn\hutool\hutool-all\5.8.16\hutool-all-5.8.16.jar;C:\Users\zhj\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\zhj\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\zhj\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\zhj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\zhj\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\zhj\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\zhj\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\zhj"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="F:\Program Files\Java\jdk1.8.0_152\jre"/>
+    <property name="basedir" value="F:\code\zhj-generator\zhj-generator-basic"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\zhj\AppData\Local\Temp\surefire5117557318752098802\surefirebooter-20241213170946073_3.jar"/>
+    <property name="sun.boot.class.path" value="F:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;F:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;F:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;F:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;F:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;F:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;F:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;F:\Program Files\Java\jdk1.8.0_152\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="user.name" value="zhj"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="F:\Program Files\Java\jdk1.8.0_152\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\zhj\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\zhj\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2.8"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="user.dir" value="F:\code\zhj-generator\zhj-generator-basic"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="F:\Program Files\Java\jdk1.8.0_152\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;D:\虚拟机VMware\bin\;C:\windows\system32;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Bandizip\;D:\Xmanager\Xftp 7\;D:\Xmanager\Xshell 7\;D:\EVE-NG\UNetLab\;C:\Program Files\Azure Data Studio\bin;F:\Matlab\runtime\win64;F:\Matlab\bin;F:\Matlab\polyspace\bin;F:\Git\cmd;F:\nodejs\;F:\Program Files\MySQL\MySQL Server 8.0\bin;F:\Redis;F:\Program Files\Java\jdk1.8.0_152\bin;F:\python\Scripts\;F:\python\;C:\Users\zhj\AppData\Local\Microsoft\WindowsApps;C:\Users\zhj\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;F:\pycharm\PyCharm Community Edition 2023.3.5\bin;;F:\nodejs\node_global;G:\Wireshark;F:\nodejs\node_global;;F:\Program Files\JetBrains\IntelliJ IDEA 2023.2.8\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.ext.dirs" value="F:\Program Files\Java\jdk1.8.0_152\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test on test(FreeMarkerTest)" classname="FreeMarkerTest" time="0.104"/>
+</testsuite>

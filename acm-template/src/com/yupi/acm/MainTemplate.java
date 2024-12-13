@@ -13,6 +13,7 @@ public class MainTemplate {
 /**
  *使用FreeMarker模板自带的判空语句进行识别
  */
+    while (scanner.hasNext()) {
             // 读取输入元素个数
             int n = scanner.nextInt();
 
@@ -29,7 +30,8 @@ public class MainTemplate {
                 sum += num;
             }
 
-            System.out.println("成功输出：" + sum);
+            System.out.println("结果" + sum);
+        }
         scanner.close();
     }
 }

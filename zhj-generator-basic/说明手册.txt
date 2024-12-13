@@ -1,0 +1,7 @@
+(1)查看代码生成器配置：generator config
+(2)查看代码生成器文件路径：generator list
+(3)使用代码生成器生成代码： generator generate -l true -a zhj -o output （非交互式）
+                                             generator generate -l -a -o （交互式---简写）
+                                             generator generate --loop --author --outputText （交互式---全写）
+(4)查看帮助手册：generator --help 
+(5)查看生成器提示信息：generator generate --help 
