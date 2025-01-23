@@ -1,3 +1,5 @@
+(0)运行脚本前提：使用maven打包构建后，将封装后的jar包移至脚本文件所在目录
+
 (1)查看代码生成器配置：generator config
 (2)查看代码生成器文件路径：generator list
 (3)使用代码生成器生成代码： generator generate -l true -a zhj -o output （非交互式）

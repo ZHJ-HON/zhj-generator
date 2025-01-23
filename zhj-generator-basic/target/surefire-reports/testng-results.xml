@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="165" started-at="2024-12-13T09:09:47Z" finished-at="2024-12-13T09:09:47Z">
+  <suite name="Surefire suite" duration-ms="170" started-at="2025-01-23T03:43:14Z" finished-at="2025-01-23T03:43:14Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="165" started-at="2024-12-13T09:09:47Z" finished-at="2024-12-13T09:09:47Z">
+    <test name="Surefire test" duration-ms="170" started-at="2025-01-23T03:43:14Z" finished-at="2025-01-23T03:43:14Z">
       <class name="FreeMarkerTest">
-        <test-method status="PASS" signature="test() throws java.io.IOException,freemarker.template.TemplateException" name="test" duration-ms="135" started-at="2024-12-13T09:09:47Z" finished-at="2024-12-13T09:09:47Z">
+        <test-method status="PASS" signature="test() throws java.io.IOException,freemarker.template.TemplateException" name="test" duration-ms="139" started-at="2025-01-23T03:43:14Z" finished-at="2025-01-23T03:43:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->

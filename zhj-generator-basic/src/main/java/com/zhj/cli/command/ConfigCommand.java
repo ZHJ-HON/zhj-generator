@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
 
 // 输出允许用户传入的动态参数
 // 反射机制---在程序运行时动态打印出对象的属性
-@CommandLine.Command(name = "config", mixinStandardHelpOptions = true)
+@CommandLine.Command(name = "config", description = "配置信息", mixinStandardHelpOptions = true)
 public class ConfigCommand implements Runnable {
     @Override
     public void run() {

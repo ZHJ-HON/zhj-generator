@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * ACM 输入模板（多数之和）
- * @Author zhj
+ * @Author ${author}
  */
 public class MainTemplate {
     public static void main(String[] args) {
@@ -13,7 +13,9 @@ public class MainTemplate {
 /**
  *使用FreeMarker模板自带的判空语句进行识别
  */
+<#if loop>
     while (scanner.hasNext()) {
+</#if>
             // 读取输入元素个数
             int n = scanner.nextInt();
 
@@ -30,8 +32,10 @@ public class MainTemplate {
                 sum += num;
             }
 
-            System.out.println("output" + sum);
+            System.out.println("${outputText}" + sum);
+<#if loop>
         }
+</#if>
         scanner.close();
     }
 }

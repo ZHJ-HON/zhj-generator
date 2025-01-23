@@ -3,6 +3,9 @@ package com.zhj.cli.example;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 
+/**
+ * demo示例工程---父命令绑定多个子命令
+ */
 @Command(name = "main", mixinStandardHelpOptions = true)
 public class SubCommandExample implements Runnable {
 

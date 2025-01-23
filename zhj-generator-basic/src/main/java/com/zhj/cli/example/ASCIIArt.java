@@ -5,6 +5,9 @@ import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 import picocli.CommandLine.Parameters;
 
+/**
+ * demo示例工程---ASCII码转换
+ */
 @Command(name = "ASCIIArt", version = "ASCIIArt 1.0", mixinStandardHelpOptions = true) // 自动提供帮助手册
 // 开发picocli命令行工具，前提需要一个可调用的类，比如runnable或callable
 public class ASCIIArt implements Runnable {

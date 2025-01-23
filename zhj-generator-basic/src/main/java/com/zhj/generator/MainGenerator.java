@@ -6,6 +6,9 @@ import freemarker.template.TemplateException;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * 核心原理：先进行整体覆盖，后进行部分替换
+ */
 public class MainGenerator {
     // 开始生成
     public static void doGenerate(Object model) throws TemplateException, IOException {

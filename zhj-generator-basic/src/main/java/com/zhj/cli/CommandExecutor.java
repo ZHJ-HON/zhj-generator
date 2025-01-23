@@ -6,7 +6,9 @@ import com.zhj.cli.command.ListCommand;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 
-// 命令行执行器，执行子命令
+/**
+ * 命令行执行器，执行子命令，相当于一个遥控器绑定多个按钮
+ */
 
 @Command(name = "zhj", mixinStandardHelpOptions = true) // 命令工具类，开启帮助手册
 public class CommandExecutor implements Runnable { // 主命令---一个执行器，相当于调用者
